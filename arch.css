@@ -1,0 +1,126 @@
+body{
+    background-color: rgba(255, 255, 0, 0.897);
+    color: black; 
+    font-family: 'Poppins', sans-serif;
+    margin: 5px;
+  }
+  header{
+    background-color: red;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    
+  }
+  .pie {
+    width: 100%;
+     background-color: red;
+    color: white;
+    text-align: center;
+}
+.centrar {
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding-top: 10px;
+padding-bottom: 5px;
+}
+h2{
+ color: red;
+}
+nav{
+    display: flex;
+    height: 70px;
+    background-color: azure;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;   
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav .menu{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+nav a:hover {
+    background-color: rgba(255, 0, 0, 0.144);
+    color: black;
+  }
+  .contenedor{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    grid-gap: 1em;
+    grid-template-rows: minmax(10px auto);
+    padding: 10px;
+}
+.contenedor div{
+    color: rgb(234, 197, 32);
+    padding: 1em;
+    font-size: 5px;
+}
+.contenedor div:hover {
+    border: 2px solid black;
+  }
+  .lugar{
+    display: grid;
+    grid-template-columns: repeat(2,3fr);
+    grid-gap: 1em;
+    grid-template-rows: minmax(10px auto);
+    padding: 10px;
+}
+.lugar div{
+    color: black;
+    padding: 1em;
+    font-size: 5px;
+}
+.lugar div:hover {
+    border: 2px solid black;
+}
+.lugar div h2{
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+.contenedor2{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    grid-gap: 1em;
+    grid-template-rows: minmax(10px auto);
+    padding: 10px;
+}
+.contenedor2 div{
+    background-color: antiquewhite;
+    color: black;
+    padding: 1em;
+    font-size: 12px;
+}
+.contenedor2 div:hover {
+    border: 2px solid black
+}
+.contacto{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2,3fr);
+    grid-gap: 1em;
+    grid-template-rows: minmax(10px auto);
+    padding: 10px;
+}
+.contacto h2{
+    color: black;
+}
+.contacto div{
+    background-color: antiquewhite;
+    color: black;
+    padding: 1em;
+    font-size: 12px;
+}
+.contacto div:hover{
+    border: 2px solid black
+}
